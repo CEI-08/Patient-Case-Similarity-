@@ -8,3 +8,8 @@ Visualizations: Interactive visualizations to help users understand trends and p
 Export Options: Ability to export findings and reports for further research and documentation.
 20-09-2024
 Introduction to Git.
+Team Members:
+1.Uday kiran
+2.Abhinay Kumar
+3.Akshath Kumar Reddy
+4.P Jaswant
