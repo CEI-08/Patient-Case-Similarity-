@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accept "
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@color/black"/>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/black"
+            android:outlineProvider="none"
+            app:boxBackgroundColor="#FFF"
+            app:boxCornerRadiusBottomEnd="25sp"
+            app:boxCornerRadiusBottomStart="25sp"
+            app:boxCornerRadiusTopEnd="25sp"
+            app:boxCornerRadiusTopStart="25sp"
+            app:boxStrokeColor="@color/purple_500"
+            app:boxStrokeErrorColor="@color/purple_500"
+            app:counterOverflowTextColor="@color/purple_500"
+             app:hintTextColor="@color/purple_500">
+
+            <EditText
+                android:id="@+id/etcost"
+                android:drawableTint="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textColor="@color/black"
+                android:hint="Enter cost"
+                android:maxLength="4"
+                android:inputType="number"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/black"
+            android:outlineProvider="none"
+            app:boxBackgroundColor="#FFF"
+            app:boxCornerRadiusBottomEnd="25sp"
+            app:boxCornerRadiusBottomStart="25sp"
+            app:boxCornerRadiusTopEnd="25sp"
+            app:boxCornerRadiusTopStart="25sp"
+            app:boxStrokeColor="@color/purple_500"
+            app:boxStrokeErrorColor="@color/purple_500"
+            app:counterOverflowTextColor="@color/purple_500"
+            app:hintTextColor="@color/purple_500"
+            >
+
+            <EditText
+                android:id="@+id/etdescription"
+
+                android:drawableTint="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textColor="@color/black"
+                android:hint="Enter your Description"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/btnadcost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/edit"
+            android:layout_margin="10dp"
+            android:text="Submit"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="5dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvslot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slot"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:id="@+id/tvusedescri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="user description"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvustatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="user status"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvdstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor status"
+            android:textSize="15sp"
+
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvcost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cost"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvddescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Words"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:id="@+id/tvdoctordeatils"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Deatils"
+            android:gravity="right"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvdoctorinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor info"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+
+        <Button
+            android:id="@+id/btncompleted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/edit"
+            android:text="Completed"/>
+
+
+        <LinearLayout
+            android:id="@+id/linearfeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RatingBar
+                android:id="@+id/ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:layout_margin="10dp"
+                android:stepSize="0.1"
+                android:rating="0.0"/>
+
+
+            <TextView
+                android:id="@+id/tvfeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Feedback"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

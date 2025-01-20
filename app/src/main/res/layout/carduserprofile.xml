@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:text="profile"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:textColorHint="@color/black"
+                app:boxCornerRadiusBottomEnd="25sp"
+                app:boxCornerRadiusBottomStart="25dp"
+                app:boxCornerRadiusTopEnd="25sp"
+                app:boxCornerRadiusTopStart="25sp"
+                app:boxStrokeColor="@color/edit"
+                app:boxStrokeErrorColor="@color/edit"
+                app:counterOverflowTextColor="@color/edit"
+                app:hintTextColor="@color/black"
+                app:startIconTint="@color/black"
+
+                >
+
+                <EditText
+                    android:id="@+id/etname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="Enter  Name"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+
+                android:textColorHint="@color/black"
+                app:boxCornerRadiusBottomEnd="25sp"
+                app:boxCornerRadiusBottomStart="25dp"
+                app:boxCornerRadiusTopEnd="25sp"
+                app:boxCornerRadiusTopStart="25sp"
+                app:boxStrokeColor="@color/edit"
+                app:boxStrokeErrorColor="@color/edit"
+                app:counterOverflowTextColor="@color/edit"
+                app:hintTextColor="@color/black"
+                app:startIconTint="@color/black"
+
+                >
+
+                <EditText
+                    android:id="@+id/etnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="Enter  Number"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+
+                android:textColorHint="@color/black"
+                app:boxCornerRadiusBottomEnd="25sp"
+                app:boxCornerRadiusBottomStart="25dp"
+                app:boxCornerRadiusTopEnd="25sp"
+                app:boxCornerRadiusTopStart="25sp"
+                app:boxStrokeColor="@color/edit"
+                app:boxStrokeErrorColor="@color/edit"
+                app:counterOverflowTextColor="@color/edit"
+                app:hintTextColor="@color/black"
+                app:startIconTint="@color/black"
+
+                >
+
+                <EditText
+                    android:id="@+id/etemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="Enter  Email"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:textColorHint="@color/black"
+                app:boxCornerRadiusBottomEnd="25sp"
+                app:boxCornerRadiusBottomStart="25dp"
+                app:boxCornerRadiusTopEnd="25sp"
+                app:boxCornerRadiusTopStart="25sp"
+                app:boxStrokeColor="@color/edit"
+                app:boxStrokeErrorColor="@color/edit"
+                app:counterOverflowTextColor="@color/edit"
+                app:hintTextColor="@color/black"
+                app:startIconTint="@color/black"
+
+                >
+
+                <EditText
+                    android:id="@+id/etaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+
+                    android:hint="Enter  Address"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:textColorHint="@color/black"
+                app:boxCornerRadiusBottomEnd="25sp"
+                app:boxCornerRadiusBottomStart="25dp"
+                app:boxCornerRadiusTopEnd="25sp"
+                app:boxCornerRadiusTopStart="25sp"
+                app:boxStrokeColor="@color/edit"
+                app:boxStrokeErrorColor="@color/edit"
+                app:counterOverflowTextColor="@color/edit"
+                app:hintTextColor="@color/black"
+                app:startIconTint="@color/black"
+
+                >
+
+                <EditText
+                    android:id="@+id/etcity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="Enter  City"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:textColorHint="@color/black"
+                app:boxCornerRadiusBottomEnd="25sp"
+                app:boxCornerRadiusBottomStart="25dp"
+                app:boxCornerRadiusTopEnd="25sp"
+                app:boxCornerRadiusTopStart="25sp"
+                app:boxStrokeColor="@color/edit"
+                app:boxStrokeErrorColor="@color/edit"
+                app:counterOverflowTextColor="@color/edit"
+                app:hintTextColor="@color/black"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/black"
+                >
+
+                <EditText
+                    android:id="@+id/etpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="Enter  Password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/btnupdateprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#EB7E5C"
+                android:padding="10dp"
+                android:text="update"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

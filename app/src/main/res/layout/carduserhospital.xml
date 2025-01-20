@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="5dp"
+    android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Name"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvfname"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textColor="#000000"
+                        android:text="name"
+                        android:textStyle="italic"
+                        android:textSize="15sp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Email"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvfemail"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:textAllCaps="true"
+                        android:text="Number"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvfnum"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="Number"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:textStyle="italic"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="City"
+                        android:textAllCaps="true"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvfcity"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="city"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:textStyle="italic"
+                        />
+
+                </LinearLayout>
+
+
+
+
+
+                <TextView
+                    android:id="@+id/tvtimimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="status"
+                    android:padding="10dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvdescri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="status"
+                    android:padding="10dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:weightSum="3"
+                     android:orientation="horizontal">
+
+                     <Button
+                         android:id="@+id/btnslots"
+                         android:layout_width="0dp"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"
+                         android:backgroundTint="@color/edit"
+                         android:text="Slot"
+                         android:layout_height="wrap_content"/>
+
+
+                     <Button
+                         android:id="@+id/btnfeedback"
+                         android:layout_width="0dp"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"
+                         android:backgroundTint="@color/edit"
+                         android:text="Feedback"
+                         android:textSize="10sp"
+                         android:layout_height="wrap_content"/>
+
+                     <Button
+                         android:id="@+id/btncall"
+                         android:layout_width="0dp"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"
+                         android:backgroundTint="@color/edit"
+                         android:text="call"
+                         android:layout_height="wrap_content"/>
+                 </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
